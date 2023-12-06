@@ -1,0 +1,72 @@
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10rem;
+  width: 50rem;
+  background-color: green;
+  margin: 1rem;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 50rem;
+  background-color: red;
+  margin: 1rem;
+}
+
+#footer {
+  height: 5rem;
+  width: 50rem;
+  background-color: yellow;
+  margin: 1rem;
+}
+
+#menuBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4cap;
+  width: 48rem;
+  background-color: lightgrey;
+}
+
+#content {
+  height: 8cap;
+  width: 48rem;
+  background-color: white;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 8rem;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  background-color: pink;
+  border: 1px solid pink;
+  margin-top: 10px;
+}
+
+.searchBarItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 10rem;
+  background-color: white;
+  border: 1px solid black;
+}
